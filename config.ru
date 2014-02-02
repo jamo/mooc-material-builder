@@ -15,4 +15,9 @@ end
 
 # Load app
 require "mooc_material_builder"
+class MoocMaterialBuilder
+  configure :production, :development do
+    enable :logging
+  end
+end
 run MoocMaterialBuilder

@@ -1,0 +1,26 @@
+
+Started at Sun Feb  2 21:39:26 EET 2014
+kansio
+/home/jamo/repos/k2014-mooc-materiaali
+Already up-to-date.
+kansiossa /home/jamo/repos/k2014-mooc-materiaali
+Already on 'master'
+Already on 'master'
+From github.com:UniversityHelsinkiTKTL/MOOC-material
+ * branch            master     -> FETCH_HEAD
+There are no candidates for merging among the refs that you just fetched.
+Generally this means that you provided a wildcard refspec which had no
+matches on the remote end.
+Stopping at 'MOOC-material'; script returned non-zero status.
+Done parsing!
+From github.com:UniversityHelsinkiTKTL/MOOC-material
+ * branch            master     -> FETCH_HEAD
+From github.com:UniversityHelsinkiTKTL/MOOC-materiaali
+ * branch            master     -> FETCH_HEAD
+Done parsing!
+fixing pre indentaitons
+Done building!
+Done at Sun Feb  2 21:39:46 EET 2014 2>&1
+fixing pre indentaitons
+Done building!
+Done at Sun Feb  2 21:39:50 EET 2014 2>&1

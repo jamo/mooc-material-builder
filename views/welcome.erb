@@ -1,9 +1,12 @@
 <h2>Sinatra Template Default Page</h2>
-
 <div class="content">
-  <p>Welcome to the Sinatra Template! If you're seeing this page, then everything is working
-  as expected. To get started, delete this file (<code>views/welcome.erb)</code> and begin adding
-  your own actions to <code>app.rb</code>. For more information, see the README.</p>
+  <pre
+    <%= if @result then @result else 'no result' end  %>
+    </pre>
+    <p>
+  <a href="/build-preview">Update preview</a>
+  <a href="http://materiaali-preview.jamo.fi/viikko1" target="_blanck">materiaalin preview</a></p>
+  <%#= ENV.inspect.gsub(",", "<br />") %>
 </div>
 
 <div class="sidebar">
@@ -14,6 +17,4 @@
     <li><b>Server:</b> <%= @env["SERVER_SOFTWARE"] %></li>
     <li><b>Port:</b> <%= @env["SERVER_PORT"] %></li>
   </ul>
-  
-  <a href="http://c7.github.com/hazel/"><img src="/images/hazel_small.png" alt="Hazel" /></a>
 </div>
