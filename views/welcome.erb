@@ -1,11 +1,19 @@
 <h2>Sinatra Template Default Page</h2>
 <div class="content">
+  <h4>Results of last preview update</h4>
   <pre
     <%= if @result then @result else 'no result' end  %>
     </pre>
-    <p>
-  <a href="/build-preview">Update preview</a>
-  <a href="http://materiaali-preview.jamo.fi/viikko1" target="_blanck">materiaalin preview</a></p>
+  <h4>Results of last production update</h4>
+  <pre
+    <%= if @prod_result then @prod_result else 'no prod_result' end  %>
+ </pre>
+
+    <ul>
+      <li><a href="/build-preview">Update preview</a></li>
+      <li><a href="/build-release"> UPDATE PRODUCTION _ DANGER</a></li>
+       <li><a href="http://materiaali-preview.jamo.fi/viikko1" target="_blanck">materiaalin preview</a></li>
+    </ul>
   <%#= ENV.inspect.gsub(",", "<br />") %>
 </div>
 
